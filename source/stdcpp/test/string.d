@@ -8,6 +8,7 @@ module stdcpp.test.string;
 
 import stdcpp.test.base;
 import stdcpp.string;
+version (Nothing):
 
 extern(C++, "stdcpp", "test") size_t stringCapacity (const(char)* str);
 

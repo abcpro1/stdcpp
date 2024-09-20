@@ -105,4 +105,9 @@ else version (CppRuntime_Clang)
         assert(vec3.size == 9); // after swap
         assert(vec.size == 7);
     }
+
+    unittest{
+        auto p = vector!char(1);
+        assert(p.size == 1);
+    }
 }

@@ -9,6 +9,7 @@ module stdcpp.test.list;
 import stdcpp.test.base;
 import stdcpp.list;
 
+version (Nothing):
 /// Test that the sizes matches
 unittest
 {

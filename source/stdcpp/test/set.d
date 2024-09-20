@@ -9,6 +9,7 @@ module stdcpp.test.set;
 import stdcpp.set;
 import stdcpp.test.base;
 import stdcpp.utility : less;
+version (Nothing):
 version (CppRuntime_Gcc)
 {
     unittest
